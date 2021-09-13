@@ -1,1 +1,1 @@
-New repo
+Responsive Netflix clone created using HTML, BEM CSS, SASS, Javacript and jQuery.
