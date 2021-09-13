@@ -37,6 +37,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
     &__logo {
         color: var(--main-color);
         font-family: 'arial black', Times, serif;
@@ -66,14 +67,56 @@ body{
     border: solid red 1px ;
     align-items: flex-start;
 
+    .container{
+        width: 700%;
+    }
+
+
+
+
+    .highlight__title{
+        font-size: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 15%;
+    }
+
+    &__description{
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+
+    
+    
+    &__buttons{
+
+        button{
+            background-color:rgba(0,0,0,.50);
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            margin-right: 15px;
+            font-size: 12px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            cursor: pointer;
+            transition: .3s ease all;
+        
+            &:hover{
+                background-color:rgba(255, 255, 255, 0.5);
+                color: black;
+            }
+        
+            & i{
+                margin-right: 5px;
+            }
+        }
+    }
+
+
+
+
+
 }
 
-.highlight__description{
-    margin-bottom: 90px;
+.container{
+    margin-left: 20px;
 }
-
-.hightlight__title{
-    font-size: 40px;
-}
-
-/* MAIS OU MENOS 1 HORA */
